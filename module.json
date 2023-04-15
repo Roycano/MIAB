@@ -1,0 +1,40 @@
+{
+  "id": "MIAB",
+  "version": "1.0.0",
+  "title": "Meu AB",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "Gordo",
+    }
+  ],
+  "esmodules": ["./js/pf2e-av.mjs"],
+  "styles": ["./styles/pf2e-av.css"],
+  "packs": [
+    {
+      "name": "av",
+      "label": "Abomination Vaults",
+      "path": "packs/av.db",
+      "type": "Adventure"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "MIAB": {
+      "pf2e-art": "modules/MIAB/image-mapping.json"
+    }
+  }
+}
