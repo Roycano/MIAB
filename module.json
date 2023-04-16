@@ -7,6 +7,7 @@
     "verified": "10",
     "maximum": "10"
   },
+  "manifest": "https://foundryvtt.s3.us-west-2.amazonaws.com/modules/pf2e-abomination-vaults/module.json",
   "authors": [
     {
       "name": "Gordo",
